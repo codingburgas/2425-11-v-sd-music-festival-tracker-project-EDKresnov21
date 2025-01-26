@@ -8,10 +8,9 @@ public class TicketManagementDatabaseContext
     public SqlConnection Connection { get; } = null;
     public List<Ticket> Tickets { get; set; }
     public List<Customer> Customers { get; set; }
-    public List<Plane> Planes { get; set; }
+    public List<Group> Groups { get; set; }
     public TicketManagementDatabaseContext()
     {
-        // TODO: Hide connection string in an environment variable
         string connectionString = "Server=localhost\\SQLEXPRESS;Database=TicketManagementDatabase;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;";
 
         if (Connection == null)
@@ -20,30 +19,30 @@ public class TicketManagementDatabaseContext
             
             Tickets = new List<Ticket>();
             Customers = new List<Customer>();
-            Planes = new List<Plane>();
+            Groups = new List<Group>();
             
             Connection.Open();
             
-            ReadPlanes();
+            ReadGroups();
             ReadCustomers();
             ReadTickets();
         }
     }
 
-    public void ReadPlanes()
+    public void ReadGroups()
     {
-        SqlCommand command = new SqlCommand("SELECT * FROM [Planes]", Connection);
+        SqlCommand command = new SqlCommand("SELECT * FROM [Groups]", Connection);
 
         SqlDataReader reader = command.ExecuteReader();
 
         while (reader.Read())
         {
-            Planes.Add(new Plane()
+            Group.Add(new Group()
             {
                 Id = Convert.ToInt32(reader["Id"]),
                 Name = Convert.ToString(reader["Name"]),
-                Make = Convert.ToString(reader["Make"]),
-                Model = Convert.ToString(reader["Model"]),
+                NumberOfMusicians = Convert.ToString(reader["Make"]),
+                Song = Convert.ToString(reader["Model"]),
             });
         }
         
@@ -88,7 +87,7 @@ public class TicketManagementDatabaseContext
                 ArrivalTime = Convert.ToDateTime(reader["ArrivalTime"]),
                 SeatNumber = Convert.ToString(reader["SeatNumber"]),
                 
-                PlaneId = Planes.Where(x=> x.Id == Convert.ToInt32(reader["PlaneId"])).FirstOrDefault(),
+                GroupId = Groups.Where(x=> x.Id == Convert.ToInt32(reader["GroupId"])).FirstOrDefault(),
                 
                 CustomerId = Customers.Where(x => x.Id == Convert.ToInt32(reader["CustomerId"])).FirstOrDefault(),
             });

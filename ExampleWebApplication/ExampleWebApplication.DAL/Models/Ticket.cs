@@ -12,6 +12,6 @@ public class Ticket
     public DateTime DepartureTime { get; set; }
     public DateTime ArrivalTime { get; set; }
     public string SeatNumber { get; set; }
-    public Plane PlaneId {get; set;}
+    public Group GroupId {get; set;}
     public Customer CustomerId {get; set;}
 }

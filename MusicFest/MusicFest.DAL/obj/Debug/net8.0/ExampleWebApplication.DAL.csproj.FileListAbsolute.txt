@@ -1,0 +1,13 @@
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\bin\Debug\net8.0\ExampleWebApplication.DAL.deps.json
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\bin\Debug\net8.0\ExampleWebApplication.DAL.dll
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\bin\Debug\net8.0\ExampleWebApplication.DAL.pdb
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.AssemblyInfo.cs
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.sourcelink.json
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.dll
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\refint\ExampleWebApplication.DAL.dll
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ExampleWebApplication.DAL.pdb
+C:\Users\Admin\RiderProjects\2425-11-v-sd-music-festival-tracker-project-EDKresnov21\ExampleWebApplication\ExampleWebApplication.DAL\obj\Debug\net8.0\ref\ExampleWebApplication.DAL.dll
